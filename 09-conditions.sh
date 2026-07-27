@@ -11,4 +11,6 @@ NUM=$1
 
 if [ $NUM -gt 20 ]; then
     echo "$NUM is greater than 20"
+else
+  echo "$NUM is less than or equal to 20"
 fi
